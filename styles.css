@@ -206,3 +206,51 @@ h1 {
 .light-mode h1 {
     border-bottom-color: #000;
 }
+
+/* RESPONSIVIDADE PARA CELULAR */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .intro-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .intro-text p {
+        font-size: 1.1rem;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-image {
+        margin-top: 1rem;
+    }
+
+    .intro-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+}
