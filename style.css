@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #08080b;
-  --surface: #111116;
-  --surface-2: #17171e;
-  --text: #f5f5f7;
-  --muted: #a7a7b3;
-  --accent: #9b6cff;
-  --accent-2: #c09cff;
-  --border: rgba(255,255,255,.09);
-  --shadow: 0 20px 60px rgba(0,0,0,.35);
+  --bg: #080b09;
+  --surface: #101512;
+  --surface-2: #161d18;
+  --text: #f3f7f4;
+  --muted: #a6b2aa;
+  --accent: #22c55e;
+  --accent-2: #4ade80;
+  --border: rgba(74, 222, 128, .12);
+  --shadow: 0 20px 60px rgba(0, 0, 0, .35);
   --max: 1120px;
 }
 
@@ -20,7 +20,11 @@ html { scroll-behavior: smooth; }
 body {
   font-family: Inter, Arial, sans-serif;
   background:
-    radial-gradient(circle at 80% 10%, rgba(155,108,255,.12), transparent 28rem),
+    radial-gradient(
+      circle at 80% 10%,
+      rgba(34, 197, 94, .13),
+      transparent 28rem
+    ),
     var(--bg);
   color: var(--text);
   line-height: 1.6;
